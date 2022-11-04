@@ -1,0 +1,139 @@
+.footer {
+    display: flex;
+    height: 160px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.container {
+    height: 64px;
+    width: 100%;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}  
+
+.container .content {
+
+display: flex;
+flex-direction: row;
+border-top: 1px solid #EAECF0;
+width: 100%;
+justify-content: space-between;
+padding-top: 32px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.zuri .img1  {
+    height: 32px;
+}
+
+
+ .img1 { 
+    padding-left: 0px;
+ }
+ 
+
+.footer_text{
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #667085;
+}
+
+ .g {
+    position: relative;
+    bottom: 10px;
+    
+    height: 32px;
+} 
+
+@media (max-width:768px) {
+    .container .content {
+
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid #EAECF0;
+        height: 196px;
+        width: 100%;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-top: 32px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        }
+        .footer {
+            display: flex;
+            height: 160px;
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 48px;
+            padding-bottom: 48px;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        
+        }
+        .container {
+            height: 64px;
+            width: 100%;
+            padding-right: 0px;
+            padding-left: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }  
+ }
+
+ @media (max-width: 480px) {
+    .container .content {
+
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid #EAECF0;
+        height: 196px;
+        width: 100%;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-top: 32px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        }
+        .footer {
+            display: flex;
+            height: 160px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 48px;
+            padding-bottom: 48px;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        
+        }
+        .container {
+            height: 64px;
+            width: 100%;
+            padding-right: 0px;
+            padding-left: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }  
+
+ }

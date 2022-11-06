@@ -14,7 +14,7 @@ export default function Links() {
           
         </div>
       ))}
-      <button id='contact'><Link to ='/contact' id='contact'>Contact Me</Link></button>
+      <button><Link to ='/contact' id='contact'>Contact Me</Link></button>
     </div>
   )
 }

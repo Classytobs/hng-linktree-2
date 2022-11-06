@@ -8,7 +8,7 @@
 
 }
 
-.frame, button {
+.frame, #button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -25,12 +25,12 @@
 }
 
 
-.frame:hover, button:hover {
+.frame:hover, #button:hover {
     background: #d0d5dd;
   }
 
   @media (max-width:768px) { 
-    .frame, #contact {
+    .frame, #button {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -49,7 +49,7 @@
   }
 
   @media (max-width: 480px) { 
-    .frame, #contact{
+    .frame, #button {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -68,7 +68,7 @@
 
 
 
-a, #contact {
+a, #button {
     text-decoration: none;
     font-family: "Inter";
     font-style: normal;

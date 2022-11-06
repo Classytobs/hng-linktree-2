@@ -8,7 +8,7 @@
 
 }
 
-.frame, #contact {
+.frame, button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -25,7 +25,7 @@
 }
 
 
-.frame:hover, #contact:hover {
+.frame:hover, button:hover {
     background: #d0d5dd;
   }
 

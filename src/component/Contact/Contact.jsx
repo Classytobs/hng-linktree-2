@@ -63,7 +63,7 @@ export default function Contact() {
                                 <div className='fieldname'>
                                     <div className='fieldfirst'>
                                         <label htmlFor='firstname'>First Name</label>
-                                       <input id='first__name' type='text' name='firstname'
+                                       <input id='first_name' type='text' name='firstname'
                                         value={formValues.firstname}
                                         onChange={handleChange}
                                         placeholder='Enter your first name'/>
@@ -72,7 +72,7 @@ export default function Contact() {
                                     
                                     <div className='fieldlast'>
                                         <label htmlFor='lastname'>Last Name</label>
-                                        <input id='last__name' type='text' name='lastname'
+                                        <input id='last_name' type='text' name='lastname'
                                         placeholder='Enter your last name'
                                         value={formValues.lastname}
                                         onChange={handleChange} />

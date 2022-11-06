@@ -101,7 +101,7 @@ form {
     margin-right: 24px;
 }
 
-#first__name, #last__name, #email {
+#first_name, #last_name, #email {
     height: 44px;
     background: #FFFFFF;
     border: 1px solid #D0D5DD;
